@@ -23,7 +23,6 @@ a{
     color: #f9faf8;
 }
 
-
 .header-container ul{
     display: flex;
     gap: 20px;
@@ -47,8 +46,112 @@ a{
 .hero-container{
     background-color: #1f2937;
     margin-left: -8px;
-    width: 100vw ;
     margin-top: 8px;
+    width: 100vw ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cta-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 200px;
+}
+
+.hero-image-container{
+    display: contents;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: -21px;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 460px;
+}
+
+.sign-up-button{
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    background: #3882f6;
+    font-weight: bold;
+    max-width: 100px;
+}
+
+
+/* infrmation section */
+.information-container{ 
+    margin-left: -8px;
+    width: 100vw ;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.info-text{
+    align-self: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.card{
+    display: flex;
+    max-width: 150px;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.card img{
+    border: 3px #3882f6 solid;
+    border-radius: 10px;
+}
+
+
+
+/* quote section */
+.quote-container{
+    margin-left: -8px;
+    width: 100vw ;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-container p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1f2937;
+    align-self: center;
+    max-width: 760px;
+}
+
+
+.superhero-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: center;
+    margin-top: -40px;
+    margin-left: 390px;
 }
 
 
